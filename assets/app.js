@@ -6,7 +6,7 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import './styles/app.css';
+import './styles/app.scss';
 import './styles/animate.css';
 //import './styles/bootstrap.css';
 //import './styles/bootstrap.css.map';
@@ -17,5 +17,8 @@ import './styles/owl.css';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 import $ from 'jquery';
+import 'bootstrap';
+import bsCustomFileInput from 'bs-custom-file-input';
+bsCustomFileInput.init();
 
 console.log('Hello Webpack Encore! Edit me in assets/app.js');
