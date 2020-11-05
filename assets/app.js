@@ -7,13 +7,6 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';
-import './styles/animate.css';
-//import './styles/bootstrap.css';
-//import './styles/bootstrap.css.map';
-import './styles/cardio.css';
-import './styles/et-icons.css';
-import './styles/normalize.css';
-import './styles/owl.css';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 import $ from 'jquery';
