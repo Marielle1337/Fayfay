@@ -27,6 +27,11 @@ class Booking
      */
     private $endAt;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $title;
+
     public function getId(): ?int
     {
         return $this->id;
